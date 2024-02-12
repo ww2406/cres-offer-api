@@ -4,6 +4,6 @@ import com.ww.cresofferapi.domain.models.Respondent;
 
 import java.util.Optional;
 
-public interface RespondentRepository {
-     Optional<Respondent> getNextRespondent();
+public interface RespondentService {
+    Optional<Respondent> getNextRespondentAndUpdateAvailability();
 }
