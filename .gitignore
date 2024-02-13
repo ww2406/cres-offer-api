@@ -31,3 +31,5 @@ build/
 
 ### VS Code ###
 .vscode/
+env.yml
+src/main/resources/Wallet_NUEZ3045UIJ37YGF/**/*
